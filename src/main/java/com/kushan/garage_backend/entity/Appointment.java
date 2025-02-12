@@ -41,4 +41,14 @@ public class Appointment {
 
     @Column(name = "job_description", length = 1000)
     private String jobDescription;
+
+    @Column(name = "place_to_fix")
+    private String placeToFix;
+
+    @Column(name = "service_type")
+    private String serviceType;
+
+    @Column(name = "vehicle_type")
+    private String vehicleType;
+
 }
